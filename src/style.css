@@ -1,7 +1,6 @@
 :root {
   --blue: #00acdc;
   --text-color: #000;
-  --header-height: 60px;
   --font-size: 12px;
   --font-weight: 500;
 }
@@ -20,7 +19,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: var(--header-height);
   background-color: #fff;
   padding: 0 50px;
 }
@@ -53,7 +51,7 @@ body {
 .nav__link {
   display: flex;
   align-items: center;
-  height: var(--header-height);
+  height: 60px;
   text-decoration: none;
   color: var(--text-color);
   text-transform: uppercase;
